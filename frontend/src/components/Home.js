@@ -10,7 +10,7 @@ import MetaData from './layout/MetaData';
 import Loader from './layout/Loader';
 import Movie from './home/Movie';
 import ISODate from 'isodate';
-
+// Home
 const Home = ({ match }) => {
     const [currentPage, setCurrentPage] = useState(1);
     const [genre, setGenre] = useState('');
